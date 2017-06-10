@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmação de Exclusão</title>
+</head>
+<body>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p>Confirma exclusão de {{object}}</p>
+        <button type="submit">Sim, tenho certeza</button>
+
+    </form>
+
+</body>
+</html>
